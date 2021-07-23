@@ -8,7 +8,8 @@ let value = 100
 // python과 같은 용도를 가진다.
 
 //함수
-function name(parameter) {
+function name(parameter,parameter2) {
     //함수 내용
     console.log(parameter)
+    console.log('it also can use '+parameter2)
 }
